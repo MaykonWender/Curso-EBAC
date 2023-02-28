@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <h1>Maykon Simulator </h1>
-        <form id="form-exercicio">
-            <input type="number" id="campo-a"  placeholder="numero A" required /> 
-            <input type="number" id="campo-b"  placeholder="numero B" required />
+        <form id="form-exercicio" onsubmit="validaNumero(Event)">
+            <input type="number" id="campoa"  placeholder="numero A" required /> 
+            <input type="number" id="campob"  placeholder="numero B" required />
             <button id="submit" type="submit">Halakazam</button>
         </form>
     </div>

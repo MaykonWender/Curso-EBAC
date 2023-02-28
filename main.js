@@ -1,26 +1,12 @@
 const form = document.getElementById('form-exercicio');
 
-function validarCampo(campa, campb)
-{
-    if (campa > campb)
-    {
-        return alert("Numero A é maior")
-    } 
-    else {
-        return alert("Numero B é maior")
-    }
-}
-
 form.addEventListener('submit', function(e) {
-
     e.preventDefault(); 
 
-    const campA =document.getElementById('campoa')
+    const campA =document.getElementById('campoa').value
+    const campB =document.getElementById('campob').value
 
-    const campB =document.getElementById('campob')
-
-    validarCampo (campA, campB)
-    
+    return campA < campB ? alert('O numero B é maior que o numero A'): alert('O numero A é maior que o numero B'); 
 })
 
 console.log(form);
