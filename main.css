@@ -5,72 +5,57 @@
     font-family: Roboto, sans-serif;
 }
 header { 
-    background-color: #5f27cd;
+    background-color: #002fffe5;
     padding: 16px 0 ;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
-    border-bottom: 16px solid #341f97;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
 }
-
 header button { 
     margin-left: 16px;
 }
-
 form { 
-    background-color: #c8d6e5;
+    background-color: #0e76e6e3;
     padding: 24px 0;
-    text-align: center;
-    display: none;
+    text-align: center;   
 }
 form h2 { 
     margin-bottom: 16px;
+    color: #fff;
 }
 input, button { 
     padding: 8px;
 }
 button { 
-    background-color: #009432;
+    background-color: #1a0dd3;
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
 }
-#botao-cancelar { 
-    background-color: #fc0808;
-}
-ul { 
-    display: flex;
-    flex-wrap: wrap;
+p{ 
+    padding: 5px;
+
 }
 ul li {
-    max-width: 25%;
-    list-style: none;
-    position: relative;
-    max-height: 280px;
-    overflow-y: hidden;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
 }
-ul li img { 
-    width: 100%
-}
-.overlay-imagem-link { 
-    padding:16px;
-    background-color: rgba(0, 0, 0 , 0.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: all ease .5s;
-}
-.overlay-imagem-link a { 
-    color: white;
-    text-decoration: none;
+.container { 
+    padding: 8px 0 ;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
 }
 
-ul li:hover .overlay-imagem-link { 
-    opacity: 1;
+.riscado { 
+    text-decoration: line-through;
 }
