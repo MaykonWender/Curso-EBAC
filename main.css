@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+body { 
+    background-color: #c0c4eb52;
+}
+.container { 
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer { 
+    display: flex;
+    background-color: #192a56;
+    padding: 16px;
+    color: white;
+    align-items: center;
+}
+
+nav li { 
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a { 
+    color: white;
+    text-decoration:none;
+}
+.sobre img { 
+    max-width: 50%;
+}
+.sobre li{ 
+    list-style: none;
+    display: flex;
+}
+.sobre li p {
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.container-flex{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sobre img{ 
+    max-width: 300px 0;
+    margin-right: 24px;
+    
+}
+section {
+    padding: 48px 0;
+}
+section h2 { 
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgba(42, 42, 141, 0.418);
+    padding: 20px;
+    font-size: 24px;
+    color: #31297ca2;
+}
+
+.lista-tenis li { 
+    list-style: none;
+    margin-bottom: 15px;
+}
+.lista-tenis li img { 
+    max-width: 100%;
+}
+.lista-tenis li h3 { 
+    margin: 16px 0;
+}
+.item-central { 
+    padding: 5px;
+}
+button { 
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #2a0fc09a;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.price {
+    margin: 16px 0;
+    display: block;
+}
+.price del { 
+    color: #ccc;
+    font-size: 14px;
+}
+.form-campo { 
+    margin-bottom: 16px;
+}
+.form-campo label { 
+    display: block;
+    font-weight: bold;
+}
+.form-campo input, .form-campo textarea { 
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+.form-campo textarea { 
+    resize: none;
+    height: 120px;
+}
+form { 
+    max-width: 360px;
+}
+form button { 
+    max-width: 120px;
+}
+footer li { 
+    list-style: none;
+    margin-left: 16px;
+}
+footer li img { 
+    height: 32px;
+}
+
+@media screen and (max-width: 767px) { 
+    .container { 
+    max-width: 767;
+    width: 90%;
+    margin: 0 auto;
+
+    }
+    .container-flex{ 
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .form-campo input, .form-campo textarea { 
+        width: 90%;
+        display: block;
+        padding: 8px;
+        display: flex;
+    }
+    .sobre img{ 
+        max-width: 250px ;
+        margin-right: 24px;
+        
+    }
+    .sobre li{ 
+        list-style: none;
+        display: block;
+        font-size: 18px;
+    }
+    header, footer { 
+        display: flex;
+        background-color: #192a56;
+        padding: 6px;
+        color: white;
+        align-items: center;
+        font-size: 10px;
+    }
+    nav li { 
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    nav li a { 
+        margin-top: 5px;
+    }
+    footer { 
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container { 
+        max-width: 1023px;
+        width: 90%;
+        margin: 0 auto;
+    
+    }.container-flex{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sobre li{ 
+        list-style: none;
+        display: block;
+        font-size: 18px;
+    }
+    .sobre img{ 
+        max-width: 500px ;
+        margin-right: 24px;
+        
+    }
+    .form-campo input, .form-campo textarea { 
+        width: 100%;
+        display: block;
+        padding: 8px;
+        display: flex;
+    }
+    .lista-tenis li { 
+        max-width: 50%;
+    }
+    .container-flex{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
