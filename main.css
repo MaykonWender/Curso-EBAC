@@ -1,0 +1,14 @@
+time {
+    display: block;
+}
+.post { 
+    margin-bottom: 24px;
+}
+header { 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #000;
+    margin-bottom: 80px;
+}
