@@ -1,0 +1,58 @@
+.navbar-nav .nav-link.active { 
+    color: #fff;
+}
+.nav-link { 
+    text-align: center;
+}
+section { 
+    background-color: #ccc;
+    padding: 30px;
+}
+.carousel-inner img { 
+    width: 100%
+    
+}
+.container { 
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.carros img { 
+    max-width: 100%;
+}
+
+footer { 
+    padding: 2px;
+    background-color: #0c0c0c;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width:767px) {
+
+.carousel-inner img { 
+    width: 700px;
+    
+}
+footer { 
+    padding: 10px;
+    margin-top: 90px;
+    background-color: #0c0c0c;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+}
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+footer { 
+    padding: 8px;
+    margin-top: 80px;
+    background-color: #0c0c0c;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+}
+}
