@@ -1,19 +1,10 @@
-
-const EBACM = (NumeroA:number, NumeroB:number): number => NumeroA * NumeroB
-
-
-class Saudação  { 
-    nome : string;
-    
-    constructor(nome :string) { 
-        this.nome = nome;
-    }
-    
-    dizOla(): string { 
-        return ` Seja bem vindo ${this.nome} `;
-    }
+function EBAC (NumeroA:number, NumeroB:number):number { 
+    return NumeroA * NumeroB;
 }
 
+function EBAC2(nome:string):string { 
+    return `Seja bem vindo ${nome}`;
+}
 
 
 
